@@ -1,0 +1,95 @@
+.itemcard {
+    display: flex;
+    height: 260rem;
+    box-sizing: border-box;
+    border-bottom: 2rem solid #f2f2f2;
+    margin: 0 14rem;
+}
+
+.cover {
+    width: 260rem;
+    height: 100%;
+    background-color: #282c34;
+    vertical-align: middle;
+    border: none;
+}
+
+.body {
+    flex: 1;
+    padding: 0 10rem 0 0;
+    background-color: #ffffff;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+.name {
+    padding: 6rem 0;
+    margin: 0;
+    margin-top: 20rem;
+    font-size: 36rem;
+    font-weight: 500;
+}
+
+.desc {
+    padding-right: 8rem;
+    margin: 0;
+    margin-top: 2rem;
+    font-size: 24rem;
+    color: #bbb;
+}
+
+.counterWrap {
+    position: relative;
+    margin-top: 38rem;
+    display: flex;
+    align-items: center;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 40rem;
+}
+
+.counter {
+    display: flex;
+    position: absolute;
+    right: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.counter button {
+    display: inline-flex;
+    border-radius: 100%;
+    border: none;
+    width: 36rem;
+    height: 36rem;
+    font-weight: 500;
+    font-size: 26rem;
+    box-sizing: border-box;
+    padding: 0;
+    line-height: 40rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.counter button [data-prefix='fas']{
+    margin-left: 1px;
+}
+
+.counter span {
+    display: inline-block;
+    margin: 0 16rem;
+    font-size: 26rem;
+}
+
+.minus {
+    background-color: transparent;
+    border: 1px solid #a9a9a9 !important;
+}
+
+.plus {
+    background-color: #ffcc00;
+}

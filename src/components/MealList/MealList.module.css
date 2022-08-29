@@ -1,4 +1,18 @@
-.list{
+.MList{
     height: 100%;
-    background-color: #f2f2f2;
+    /*background-color: #ffcc00;*/
+}
+
+.list{
+    height: calc(100% - 118rem);
+    padding-bottom: 120rem;
+    overflow: hidden auto;
+    box-sizing: border-box;
+}
+
+.counterBar{
+    position: fixed;
+    bottom: 30rem;
+    left: 50%;
+    transform: translateX(-50%);
 }

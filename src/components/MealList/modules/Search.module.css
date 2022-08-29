@@ -1,0 +1,30 @@
+.search {
+    padding:28rem 20rem;
+    border-bottom: 2rem solid #f2f2f2;
+    box-sizing: border-box;
+}
+.innerText{
+    display: flex;
+    width: 94%;
+    padding:12rem 8rem;
+    margin: 0 auto;
+    background-color: #f2f2f2;
+    border-radius: 36rem;
+    align-items: center;
+}
+.icon{
+    display: inline-block;
+    width: 31rem;
+    height: 31rem;
+    margin-left: 14rem;
+    margin-right: 4rem;
+    color: #b7b7b7;
+    /*background-color: #61dafb;*/
+}
+.innerText input{
+    flex: 1;
+    font-size: 26rem;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}

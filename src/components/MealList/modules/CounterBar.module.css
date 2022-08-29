@@ -1,5 +1,60 @@
 .counterBarWrap{
-    width: 90%;
-    height: 60rem;
-    background-color: #282c34;
+    display: flex;
+    width: 94%;
+    height: 80rem;
+    padding: 0;
+    border-radius: 40rem;
+    background-color: #313131;
+}
+.paperbag{
+    position: relative;
+    top: -20rem;
+    left: -1px;
+    width: 80rem;
+    height: calc(100% + 20rem);
+    background-color: #ffcc00;
+}
+.counterBarWrapBody{
+    flex: 1;
+    padding-left: 16rem;
+    text-align: left;
+    line-height: 80rem;
+    font-size: 32rem;
+    font-weight: bold;
+    color: #a1a1a1;
+}
+.handleBtn{
+    padding: 0 40rem;
+    margin-right: -2rem;
+    height: 100%;
+    background-color: #ffcc00;
+    border-radius: 40rem;
+    border: none;
+    box-sizing: border-box;
+    font-size: 30rem;
+    font-weight: 500;
+}
+
+.badge{
+    position: absolute;
+    display: inline-block;
+    top: -12rem;
+    right: -16rem;
+    width: 40rem;
+    height: 40rem;
+    line-height: 40rem;
+    font-size: 25rem;
+    font-weight: bold;
+    background-color: #ff3100;
+    border-radius: 50%;
+    box-sizing: border-box;
+    color: #ffffff;
+}
+
+.price{
+    color: #ffffff;
+}
+
+.price > span{
+    font-size: 40rem;
 }
